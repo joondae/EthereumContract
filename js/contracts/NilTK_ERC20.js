@@ -1,5 +1,5 @@
 var NilTK_ERC20;
-var HWTK_ERC20_CONFIG = {
+var NilTK_ERC20_CONFIG = {
     "ContractAddress": "0xc91f241Ecd72c0CF808552b2F6c813873d8B98d6",
     "ContractABI": [
     	{
