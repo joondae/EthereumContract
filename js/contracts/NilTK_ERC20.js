@@ -277,4 +277,5 @@ var NilTK_ERC20_CONFIG = {
     		"stateMutability": "nonpayable",
     		"type": "function"
     	}
-    ];
+    ]
+  };

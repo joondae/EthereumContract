@@ -244,4 +244,5 @@ var HWTK_ERC20_CONFIG = {
         "stateMutability": "nonpayable",
         "type": "function"
       }
-    ];
+    ]
+  };

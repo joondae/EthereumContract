@@ -67,7 +67,7 @@
   <!-- https://raw.githubusercontent.com/ChainSafe/web3.js/v1.3.4/dist/web3.min.js -->
   <script src="js/web3.min.js"></script>
   <script src="js/contracts/globals.js"></script>
-  <script src="js/contracts/all.js"></script>
+  <script src="js/contracts/NilTK_ERC20.js"></script>
   <script>
     // THIS NEEDS to match your Ganache localhost
     let web3 = new Web3(Web3.givenProvider || "ws://localhost:7545");
@@ -184,7 +184,7 @@
 
       async function talkWithContract() {
         // Eth Contract takes the ABI
-        ACTIVE_CONTRACT = new web3.eth.Contract(AdvTopicsContractABI, AdvTopicsAddress);
+        ACTIVE_CONTRACT = new web3.eth.Contract(NilTK_ERC20_CONFIG.ContractABI, NilTK_ERC20_CONFIG.ContractAddress);
         var settingName = await ACTIVE_CONTRACT.methods.setName("Stephen Hawking").send({
           from: ACTIVE_WALLET
         });
